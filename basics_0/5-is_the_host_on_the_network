@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # This pings an address suppplied in arg1 5 times
-addr=$1
-ping -c 5 "$addr"
-
+if [ "$1" ]
+then
+	ping -c 5 "$1"
+else
+	echo "Usage: $0 {IP_ADDRESS}"
+fi
