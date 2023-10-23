@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script shows listening sockets and only shows PID and program
 netstat -lp
 
