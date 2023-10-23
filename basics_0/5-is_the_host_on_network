@@ -1,0 +1,4 @@
+#!/bin/bash
+# This pings an address suppplied in arg1 5 times
+addr=$1
+ping -c 5 "$addr"
