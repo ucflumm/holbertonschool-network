@@ -1,3 +1,4 @@
 #!/bin/bash
 # This script shows listening sockets and only shows PID and program
 netstat -lp
+
