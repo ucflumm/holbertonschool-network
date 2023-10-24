@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This pings an address suppplied in arg1 5 times
-if [ ! "$1" ]; 
+if [ $# -eq 0 ]; 
 then
 	echo "Usage: $0 {IP_ADDRESS}"
 	exit 1
